@@ -2,7 +2,7 @@
 export default function AboutMe({ }) {
   return (
     <section className="pb-10 mt-10">
-      <h3 className='text-blue-400 my-3 text-center'> About Me </h3>
+      <h3 className='text-blue-400 my-3 text-center' id="AboutMe"> About Me </h3>
       <p className="w-[65vw] m-auto px-4">
         I have collaborated on the development of several projects, including a car insurance 
         policy management system, a student and activity management system, and a prototype environment 
