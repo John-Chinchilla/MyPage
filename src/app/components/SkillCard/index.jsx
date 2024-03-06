@@ -1,11 +1,17 @@
-import { faPython } from "@fortawesome/free-brands-svg-icons";
+"use client"
+import importIcons from "@/app/functions/importIcons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
-export default function SkillCard({ }) {
+export default function SkillCard({ icon = "faPython", description = "Name", photo = false }) {
     return (
-        <div className='bg-gray-800 w-[8rem] p-5 rounded flex gap-3 grid justify-center grow'>
-            <FontAwesomeIcon icon={faPython} className='w-[3rem] h-[3rem] ml-2' />
-            <h5> Name </h5>
+        <div className='bg-gray-800 w-[8rem] p-5 rounded gap-3 grid justify-center grow'>
+            {photo == false ? (
+                <FontAwesomeIcon icon={importIcons(icon)} className='w-[3rem] h-[3rem] m-auto' />
+            ) : (
+                <Image src={icon} width={3840} height={2160} className='w-[3rem] h-[3rem] m-auto pointer-events-none select-none' />
+            )}
+            <h5 className="text-center"> {description} </h5>
         </div>
     )
 }
