@@ -14,63 +14,51 @@ export const myData = {
     skills: [
         {
             "description": "C++",
-            "icon": "/images/CIcon.png",
-            "photo": true
+            "icon": "/images/CIcon.webp"
         },
         {
             "description": "Python",
-            "icon": "faPython",
-            "photo": false
+            "icon": "/images/PythonIcon.webp"
         },
         {
             "description": "Java",
-            "icon": "faJava",
-            "photo": false
+            "icon": "/images/JavaIcon.webp"
         },
         {
             "description": "HTML",
-            "icon": "faHtml5",
-            "photo": false
+            "icon": "/images/HtmlIcon.webp",
         },
         {
             "description": "CSS",
-            "icon": "faCss3Alt",
-            "photo": false
+            "icon": "/images/CssIcon.webp",
         },
         {
             "description": "JavaScript",
-            "icon": "faJs",
-            "photo": false
+            "icon": "/images/JavaScriptIcon.webp",
         },
         {
             "description": "React",
-            "icon": "faReact",
-            "photo": false
+            "icon": "/images/ReactIcon.webp",
         },
         {
             "description": "Next.js",
-            "icon": "/images/NextJsIcon.png",
-            "photo": true
+            "icon": "/images/NextJsIcon.webp",
         },
         {
             "description": "Tailwind",
-            "icon": "/images/TailwindIcon.png",
-            "photo": true
+            "icon": "/images/TailwindIcon.webp",
         },
         {
             "description": "Boostrap",
-            "icon": "faBootstrap",
-            "photo": false
+            "icon": "/images/BootstrapIcon.webp",
         },
         {
             "description": "SQL",
-            "icon": "faDatabase",
-            "photo": false
+            "icon": "/images/SqlIcon.webp",
         },
         {
             "description": "GitHub",
-            "icon": "faGithub",
-            "photo": false
+            "icon": "/images/GitHubIcon.webp",
         },
     ]
 }
