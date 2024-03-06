@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ProjectCard({ }) {
     return (
-        <div className="bg-gray-600 w-[30vw] bg-gray-500 p-2 rounded m-3">
+        <div className="bg-gray-600 w-[30vw] bg-gray-500 p-2 rounded m-3 grow">
             <Image src="/images/img1.jpg" width={3840} height={2160} className="rounded" />
             <div className="flex justify-between items-center px-2 bg-gray-700 mt-3 rounded">
                 <h5>

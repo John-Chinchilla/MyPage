@@ -1,7 +1,7 @@
-import { Inter } from "next/font/google";
+import { Karla } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Karla({ subsets: ["latin"] });
 
 export const metadata = {
   title: "MyPage",
