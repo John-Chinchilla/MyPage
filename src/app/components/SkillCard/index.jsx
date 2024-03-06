@@ -1,5 +1,5 @@
 "use client"
-import ImportIcons from "@/app/functions/ImportIcons";
+import ImportIcons from "@/app/functions/importIcons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
