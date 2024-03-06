@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons'
 
-export default function importIcons (titleIcon) {
+export default function ImportIcons (titleIcon) {
     const [icon, setIcon] = useState(faSpinner);
     
     useEffect(() => {
