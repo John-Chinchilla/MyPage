@@ -1,6 +1,28 @@
 export const myData = {
     name: "John Rojas Chinchilla",
     email: "john.rojas.chinchilla@gmail.com",
+    projects: [
+        {
+            "image": "/images/img1.webp",
+            "title": "Title 1",
+            "githubURL": "https://www.google.com",
+        },
+        {
+            "image": "/images/img1.webp",
+            "title": "Title 2",
+            "githubURL": "https://www.google.com",
+        },
+        {
+            "image": "/images/img1.webp",
+            "title": "Title 3",
+            "githubURL": "https://www.google.com",
+        },
+        {
+            "image": "/images/img1.webp",
+            "title": "Title 4",
+            "githubURL": "https://www.google.com",
+        },
+    ],
     experience: [
         {
             "date": "2023 - 2024",
@@ -34,7 +56,7 @@ export const myData = {
         },
         {
             "description": "JavaScript",
-            "icon": "/images/JavaScriptIcon.webp",
+            "icon": "/images/JavascriptIcon.webp",
         },
         {
             "description": "React",
@@ -54,7 +76,7 @@ export const myData = {
         },
         {
             "description": "SQL",
-            "icon": "/images/SqlIcon.webp",
+            "icon": "/images/SQLIcon.webp",
         },
         {
             "description": "GitHub",
