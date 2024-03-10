@@ -11,8 +11,8 @@ export default function ProjectCard({ image = "/images/img1.webp", title = "Titl
                 <h5>
                     {title}
                 </h5>
-                <div className='flex py-2'>
-                    <Link href={githubURL}>
+                <div className='flex py-2 hover:brightness-75'>
+                    <Link href={githubURL} target="_blank">
                         <FontAwesomeIcon icon={faGithub} width={100} height={100} className='w-[2.2vw] h-[2.2vw]' />
                     </Link>
                 </div>

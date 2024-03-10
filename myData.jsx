@@ -4,23 +4,18 @@ export const myData = {
     projects: [
         {
             "image": "/images/img1.webp",
-            "title": "Title 1",
-            "githubURL": "https://www.google.com",
+            "title": "IDESPO App",
+            "githubURL": "https://github.com/John-Chinchilla",
         },
         {
             "image": "/images/img1.webp",
-            "title": "Title 2",
-            "githubURL": "https://www.google.com",
+            "title": "TaskFlow",
+            "githubURL": "https://github.com/John-Chinchilla",
         },
         {
             "image": "/images/img1.webp",
-            "title": "Title 3",
-            "githubURL": "https://www.google.com",
-        },
-        {
-            "image": "/images/img1.webp",
-            "title": "Title 4",
-            "githubURL": "https://www.google.com",
+            "title": "Artificial Inteligence Demos Page",
+            "githubURL": "https://github.com/John-Chinchilla",
         },
     ],
     experience: [

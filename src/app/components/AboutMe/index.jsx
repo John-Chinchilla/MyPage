@@ -1,3 +1,6 @@
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 export default function AboutMe({ }) {
   return (
@@ -15,6 +18,10 @@ export default function AboutMe({ }) {
         JavaScript, TypeScript and Python, as well as databases like Oracle, MySQL, and MariaDB. I have also
         worked with tools like React, NextJS, Django, Docker and GitHub.
       </p>
+      <div className="flex justify-center gap-5">
+        <Link href={"https://github.com/John-Chinchilla"} target="_blank"> <FontAwesomeIcon icon={faGithub} width={78} height={78} className="w-[2rem] hover:brightness-75"/> </Link>
+        <Link href={"https://www.linkedin.com/in/john-alejandro-rojas-chinchilla-a68639297/"} target="_blank"> <FontAwesomeIcon icon={faLinkedin} width={78} height={78} className="w-[2rem] hover:brightness-75"/></Link>
+      </div>
     </section>
   )
 }
